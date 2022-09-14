@@ -44,7 +44,7 @@ export const technologies: ITechs[] = [
     id: 4,
     name: 'Webpack',
     criteria: {
-      dom: /^(webpack.com)$|^(www.webpack-transpiled.com)$/gi
+      dom: /^^(webpack.com)$/gi
     }
   },
   {

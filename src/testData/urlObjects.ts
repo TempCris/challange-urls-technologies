@@ -49,13 +49,6 @@ export const urls: IUrls[] = [
     q: '?cid=1789632'
   },
   {
-    // Webpack
-    url: 'https://www.webpack-transpiled.com/blog/importance-of-information-technology.blog?cid=4852367&test1=8316752',
-    dom: 'www.webpack-transpiled.com',
-    pat: '/blog/importance-of-information-technology.blog',
-    q: '?cid=4852367'
-  },
-  {
     // Optimizely ts
     url: 'https://cdn.optimizely.com/ts/new-particle-discovered-higgs-boson-machine_15892.news?cid=5781649&test1=5264787',
     dom: 'cdn.optimizely.com',

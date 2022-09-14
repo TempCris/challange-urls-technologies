@@ -29,7 +29,7 @@ function techClassifier(uData: IUrls[], techs: ITechs[]) {
       const { dom: domCriteria, pat: patCriteria, q: qCriteria } = currentTech.criteria;
       // validate domain criterias
       if (domCriteria) {
-        domSuccess = domCriteria.test(currentUrl.dom);
+        domSuccess = domCriteria?.test(currentUrl.dom);
       } else {
         domSuccess = true;
       }
