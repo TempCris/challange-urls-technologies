@@ -1,20 +1,27 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+TODO: Classify urls into specific technologies depending on criterias of each technologie
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests
+# About
+The program run a function that recibe an array of url object (example in ./src/testData/urlObjects.ts) and an array of technologies with their respective criterias (example in: ./src/testData/technologies.ts) and returns and object with the urls clasified in the corresponding technologie
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Run and Test
+### Notes:
+- You can edit and add urls in ./src/testData/
+- You can edit and add technologies in ./src/testData/technologies.ts
+### Steps for run
+1. Install dependencies: 
+  ```
+  $ npm i
+  ```
+2. run in dev mode: 
+  ```
+  $ npm run dev
+  ```
+2.5 run in prod mode: 
+  ```
+  $ npm run prod
+  ```
+# Requirements
+- node 16.x
+- npm 8.x
