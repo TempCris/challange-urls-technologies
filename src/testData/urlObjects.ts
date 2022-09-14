@@ -14,9 +14,9 @@ export const urls: IUrls[] = [
     q: '?tid=G-5649295&&test1=8417920'
   },
   {
-    // Optimizeley
-    url: 'https://cdn.optimizeley.com/js/new-particle-discovered-higgs-boson-machine_15892.news?cid=5781649&test1=5264787',
-    dom: 'cdn.optimizeley.com',
+    // Optimizely js
+    url: 'https://cdn.optimizely.com/js/new-particle-discovered-higgs-boson-machine_15892.news?cid=5781649&test1=5264787',
+    dom: 'cdn.optimizely.com',
     pat: '/js/new-particle-discovered-higgs-boson-machine_15892.news',
     q: '?cid=5781649&test1=5264787'
   },
@@ -56,9 +56,9 @@ export const urls: IUrls[] = [
     q: '?cid=4852367'
   },
   {
-    // Optimizeley
-    url: 'https://cdn.optimizeley.com/ts/new-particle-discovered-higgs-boson-machine_15892.news?cid=5781649&test1=5264787',
-    dom: 'cdn.optimizeley.com',
+    // Optimizely ts
+    url: 'https://cdn.optimizely.com/ts/new-particle-discovered-higgs-boson-machine_15892.news?cid=5781649&test1=5264787',
+    dom: 'cdn.optimizely.com',
     pat: '/ts/new-particle-discovered-higgs-boson-machine_15892.news',
     q: '?cid=5781649&test1=5264787'
   },

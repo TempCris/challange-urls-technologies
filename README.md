@@ -1,7 +1,6 @@
 # Introduction 
 TODO: Classify urls into specific technologies depending on criterias of each technologie
 
-
 # About
 The program run a function that recibe an array of url object (example in ./src/testData/urlObjects.ts) and an array of technologies with their respective criterias (example in: ./src/testData/technologies.ts) and returns and object with the urls clasified in the corresponding technologie
 
