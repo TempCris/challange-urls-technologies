@@ -8,6 +8,7 @@ To identify to which technology does the url belong, the url object has to match
 
 - No mock data for url objects is provided, also you can modify the url object example in the image to suit better for your solution.
 - No mock data for the technologies is provided for the technologies, read the criteria and propose data that allows you identify which url belongs to the up to 4000 technologies (not provided)
+- The solution should  be prepared to handle between 5,000 to 10,000 url objects and 4000 technologies per minute
 - The implementation shouldn't actually run, the important thing is to see the approach and strategy used to solve this problem
 - The solution challenge should be finished in 2 or max 3 hours
 
